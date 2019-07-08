@@ -2,13 +2,13 @@ var dataCacheName = 'dataCache-v2';
 var cacheName = 'resourceCache-v2-' + new Date(); //resourceCache-v1-2019-06-20
 var filesToCache = [
     '/',
-    '/index.html',
-    '/manifest.json',
-    '/favicon.ico',
-    '/assets/css/hello-world.css',
-    '/assets/icons/android-icon-48x48.png',
-    '/assets/icons/apple-icon-152x152.png',
-    '/assets/icons/apple-icon-180x180.png',
+    './index.html',
+    './manifest.json',
+    './favicon.ico',
+    './assets/css/hello-world.css',
+    './assets/icons/android-icon-48x48.png',
+    './assets/icons/apple-icon-152x152.png',
+    './assets/icons/apple-icon-180x180.png',
     'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
 ];
 
