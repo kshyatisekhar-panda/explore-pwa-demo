@@ -1,7 +1,7 @@
 var dataCacheName = 'dataCache-v2';
 var cacheName = 'resourceCache-v2-' + new Date(); //resourceCache-v1-2019-06-20
 var filesToCache = [
-    '/',
+    './',
     './index.html',
     './manifest.json',
     './favicon.ico',
