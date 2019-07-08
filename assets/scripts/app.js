@@ -58,7 +58,7 @@ function displayConfirmationNotification() {
     console.log('Successfully subscribed');
     let options = {
         body: 'Born: 7 July 1981\nLocation: Ranchi,India\nYou are Legend!',
-        icon: '/assets/icons/ms.jpg'
+        icon: './assets/icons/ms.jpg'
     };
     new Notification("Happy Birthday! MS Dhoni", options);
 }
